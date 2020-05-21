@@ -1,13 +1,13 @@
 ## Backup Files
 
 #### Funcionalidades
-    1 - Comprime e armazena seus backups na pasta desejada.
+    1 - Compress and stores the backups files in a folder 
     2 - Armazena o último arquivo de backup, somente se este for diferente do anterior.
     3 - Armazena uma quantidade delimitada de arquivos.
     4 - Remove os backups mais antigos excedentes a quantidade delimitada.
 
 #### Configurações
-Edite isto no arquivo de configurações "backup_files.cfg".
+Edite isto no arquivo de configurações "files_backup.cfg".
     BACKUP_RETAIN_DAYS
     Quantidade de dias de backup que deverá manter. Ex: Use 10, para manter 10 dias de arquivos de backup.
     

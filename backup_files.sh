@@ -2,7 +2,7 @@
 
 #####################################################
 ##                                                 ##
-##   Files Backup                                  ##
+##   Backup Files                                  ##
 ##                                                 ##
 ##   Authors: Guilherme Araujo aka Gartisk         ##
 ##            Sandro Macena aka SMacena            ##
