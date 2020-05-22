@@ -30,7 +30,7 @@ Make these edtions in the file config "backup_files.cfg".
     Date format that will be saved in the name file name, e.g., Use "%Y-%m-%d" to website-**2020-15-05**.tar.gz.
 
 #### Task schedule
-Cron is an utility that allows you to run tasks automatically in the background:
+##### Cron is an utility that allows you to run tasks automatically in the background:
     In this example the script will always be executed at 2.30 a.m.
     crontab -e 30 2 * * * /bin/sh backup_files.sh service crond restart
 
