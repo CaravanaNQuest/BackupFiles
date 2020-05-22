@@ -33,7 +33,9 @@ Make these edtions in the file config "backup_files.cfg".
 Cron is an utility that allows you to run tasks automatically in the background.
 In this example the script will always be executed at 2.30 a.m.:
 
-    crontab -e 30 2 * * * /bin/sh backup_files.sh service crond restart
+    crontab -e 
+    30 2 * * * /bin/sh backup_files.sh 
+    service crond restart
 
 #### Tests
 If you are interested in performing some tests you can use the command bellow:
