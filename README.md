@@ -30,10 +30,9 @@ Edite isto no arquivo de configurações "backup_files.cfg".
     Formato da data que será salvo no nome do arquivo. Ex: Use "%Y-%m-%d" para website-**2020-15-05**.tar.gz.
 
 #### Agendamento de execução
-@TODO
-Caso tenha interesse em realizar testes, você pode utilizar o comando abaixo:
-
-    touch -d "$(date -d '2020-05-20' +'%Y%m%d%t')" website_2020-05-20.tar.gz
+Cron é um utilitário que permite executar tarefas automaticamente em background:
+    Nesse exemplo o script será executado sempre às 2:30 AM
+    crontab -e 30 2 * * * /bin/sh backup_files.sh service crond restart
 
 #### Testes
 Caso tenha interesse em realizar testes, você pode utilizar o comando abaixo:
